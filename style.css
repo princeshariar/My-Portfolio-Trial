@@ -18,8 +18,8 @@ span{
 }
 section{
     display: flex;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    
+    margin-bottom: 15%;
 }
 .half-width{
     width: 50%;
@@ -38,3 +38,18 @@ section{
     color: white;
     border-radius: 5px;
 }
+.second-pic{
+    width: 50%;
+    padding-left: 0%;
+}
+.first-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.sec-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+  
