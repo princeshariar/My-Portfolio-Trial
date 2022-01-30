@@ -12,12 +12,14 @@ h3{
 }
 .text-decoration{
     text-align: justify;
+  
 }
 span{
     color: rebeccapurple;
 }
-section{
+.flex-container{
     display: flex;
+
     
     margin-bottom: 15%;
 }
@@ -52,4 +54,20 @@ section{
     background-repeat: no-repeat;
     background-position:right;
 }
-  
+.content{
+    width: 80%;
+   padding-left: 3%;
+   padding-right: 3%;
+   
+    /* border: 5px solid burlywood; */
+    box-shadow: 10px 10px 50px gray;
+    margin-left: 5%;
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+    
+}
+footer{
+    text-align: center;
+}
